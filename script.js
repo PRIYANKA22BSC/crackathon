@@ -16,7 +16,6 @@ const passwordInput = document.getElementById('password');
                 progressBarInner.style.backgroundColor = '#e0e0e0';
             }
         });
-
         function getPasswordStrength(password) {
             const strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*])[A-Za-z\\d!@#$%^&*]{8,}$");
             const weakRegex = new RegExp("^(?=.*[a-z])(?=.*\\d)[A-Za-z\\d]{6,}$");
